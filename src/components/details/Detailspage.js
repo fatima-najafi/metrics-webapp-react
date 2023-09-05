@@ -32,10 +32,6 @@ const Detailspage = () => {
               <td>{companyDetails.sector}</td>
             </tr>
             <tr>
-              <th scope="col">Industry</th>
-              <td>{companyDetails.industry}</td>
-            </tr>
-            <tr>
               <th scope="col">Price</th>
               <td>{companyDetails.price}</td>
             </tr>
@@ -63,11 +59,8 @@ const Detailspage = () => {
               <th scope="col">Address</th>
               <td>{companyDetails.address}</td>
             </tr>
-            <tr>
-              <th scope="col">website</th>
-              <td>{companyDetails.website}</td>
-            </tr>
           </tbody>
+
         </table>
       </div>
     </div>
