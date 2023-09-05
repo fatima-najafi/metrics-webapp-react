@@ -1,16 +1,16 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import Details from './components/Details';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
+import HomepageList from './components/homepage/HomepageList';
+import Detailspage from './components/details/Detailspage';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/details" element={<Details />} />
+        <Route path="/" element={<HomepageList />} />
+        <Route path="/details/:smbl" element={<Detailspage />} />
       </Routes>
     </Router>
   );
