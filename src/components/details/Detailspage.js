@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { getCompanyDetails } from '../../redux/companies-list';
+import { getCompanyDetails } from '../../redux/companySlice';
+import './Detailspage.css';
 
 const Detailspage = () => {
   const { companyDetails } = useSelector((state) => state.companies);
   const dispatch = useDispatch();
   const { smbl } = useParams();
+
   useEffect(() => {
     dispatch(getCompanyDetails(smbl));
   }, [dispatch, smbl]);
@@ -59,8 +61,11 @@ const Detailspage = () => {
               <th scope="col">Address</th>
               <td>{companyDetails.address}</td>
             </tr>
+            <tr>
+              <th scope="col">Website</th>
+              <td>{companyDetails.website}</td>
+            </tr>
           </tbody>
-
         </table>
       </div>
     </div>
