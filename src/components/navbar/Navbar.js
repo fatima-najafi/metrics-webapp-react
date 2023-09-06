@@ -19,7 +19,7 @@ const Navbar = () => {
           alt="back"
         />
       </div>
-      <h2 className="heading">Componies</h2>
+      <h2 className="heading">Companies List</h2>
       <div className="position">
         <img className="btn" src={mic} alt="mic" />
         <img className="btn" src={setting} alt="setting" />
