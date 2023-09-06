@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check any changes to the component 1`] = `
+<div
+  className="parent"
+  data-testid="detailspage"
+>
+  <div
+    className="items"
+  >
+    <img
+      alt="company"
+      className="image"
+    />
+    <p>
+      (
+      )
+    </p>
+    <h1 />
+    <table
+      className="table"
+    >
+      <tbody>
+        <tr>
+          <th
+            scope="col"
+          >
+            CEO
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Sector
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Price
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Currency
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Full Time Employees
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Country
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            City
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Phone
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Address
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Website
+          </th>
+          <td />
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
