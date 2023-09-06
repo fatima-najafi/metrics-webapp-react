@@ -1,3 +1,4 @@
+import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
@@ -6,6 +7,7 @@ import Detailspage from './components/details/Detailspage';
 
 function App() {
   return (
+
     <Router>
       <Navbar />
       <Routes>
@@ -13,6 +15,7 @@ function App() {
         <Route path="/details/:smbl" element={<Detailspage />} />
       </Routes>
     </Router>
+
   );
 }
 
