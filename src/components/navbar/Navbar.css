@@ -1,6 +1,6 @@
 
 .navigation {
-  background-color: rgba(114, 37, 93, 0.518);
+  background-color: gray;
   display: flex;
   align-items: center;
   justify-content: space-between;

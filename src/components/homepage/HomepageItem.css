@@ -6,7 +6,7 @@
   align-items: center;
   height: 100px;
   width: 160px;
-  background-color: rgba(114, 37, 93, 0.518);
+  background-color: gray;
   border-radius: 10px;
   margin: 20px 10px;
   text-align: center;
@@ -23,7 +23,7 @@
   font-family: Poppins, sans-serif;
   font-size: 15px;
   margin-top: 10px;
-  color: rgb(94, 74, 74);
+  color: #000000b5;
 }
 
 /* for desctop version */

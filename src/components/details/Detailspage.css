@@ -14,7 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(114, 37, 93, 0.518);
+  background-color:gray;
   border-radius: 10px;
   margin-top: 30px;
   margin-bottom: 0;
@@ -22,8 +22,8 @@
 }
 
 .image {
-  height: 80px;
-  width: 100px;
+  height: 100px;
+  width: 150px;
   border-radius: 10px;
   border: 5px solid rgb(255, 255, 255);
   margin-top: 130px;
@@ -44,7 +44,7 @@ h1 {
   font-size: 14px;
 }
 
-tr:nth-child(even) { background-color: #e289be; }
+tr:nth-child(even) { background-color:gray; }
 
 /* for desctop version */
 @media only screen and (min-width: 768px) {
