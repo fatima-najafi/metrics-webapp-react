@@ -14,6 +14,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [🤯 Walk through video ](#-walk-through-video-)
     - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites ](#prerequisites-)
@@ -52,6 +53,12 @@
 
 - **Created with react**
 - **Fetch Data from API**
+<!-- WALKTHROUGH -->
+
+## 🤯 Walk through video <a name="walk-through"></a>
+
+
+- [here](https://www.loom.com/share/b100af4d621e4a4190db3d32c3ff2026?sid=ebc6c048-9562-4cac-8009-41b658f56cd4)
  <!-- LIVE DEMO -->
  ## 🚀 Live Demo <a name="live-demo"></a>
 
