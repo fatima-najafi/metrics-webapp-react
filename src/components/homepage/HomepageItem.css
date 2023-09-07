@@ -2,16 +2,16 @@
   display: flex;
   flex-direction: row;
   height: 100px;
-  width: 200px;
+  width: 168px;
   gap: 30px;
   text-align: center;
   padding-left: 20px;
 }
-
 .icon {
   height: 60px;
   width: 60px;
   margin-top: 10px;
+  margin-left: 25px;
 }
 
 .title {
