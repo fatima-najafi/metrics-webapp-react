@@ -23,7 +23,6 @@
   margin-top: 60px;
   padding: 1px;
   height: 100px;
-  padding: 1px;
   width: 98%;
   border-top: none;
 }
@@ -32,6 +31,7 @@ h1 {
   margin-top: 50px;
   font-size: 15px;
 }
+
 p {
   margin-top: 50px;
 }
@@ -43,6 +43,7 @@ p {
   border-radius: 0 0 10px 10px;
   font-size: 14px;
 }
+
 tr {
   height: 35px;
 }

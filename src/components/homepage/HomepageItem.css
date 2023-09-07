@@ -3,10 +3,11 @@
   flex-direction: row;
   height: 100px;
   width: 200px;
-   gap: 30px;
+  gap: 30px;
   text-align: center;
   padding-left: 20px;
 }
+
 .icon {
   height: 60px;
   width: 60px;
@@ -15,7 +16,7 @@
 
 .title {
   font-weight: bold;
- font-family: 'Gill Sans', sans-serif;
+  font-family: 'Gill Sans', sans-serif;
   font-size: 15px;
   color: #000000b5;
 }
@@ -41,7 +42,7 @@
 
   .title {
     font-weight: bold;
-   font-family: 'Gill Sans', sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     font-size: 20px;
     margin-top: 20px;
     color: rgb(94, 74, 74);
