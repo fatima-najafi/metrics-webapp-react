@@ -1,17 +1,14 @@
-
 .item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100px;
-  width: 160px;
-  background-color: gray;
-  border-radius: 10px;
-  margin: 20px 10px;
-  text-align: center;
-}
+  width: 200px;
 
+  text-align: center;
+  padding-left: 20px;
+}
 .icon {
   height: 60px;
   width: 60px;
@@ -20,7 +17,7 @@
 
 .title {
   font-weight: bold;
-  font-family: Poppins, sans-serif;
+ font-family: 'Gill Sans', sans-serif;
   font-size: 15px;
   margin-top: 10px;
   color: #000000b5;
@@ -47,7 +44,7 @@
 
   .title {
     font-weight: bold;
-    font-family: Poppins, sans-serif;
+   font-family: 'Gill Sans', sans-serif;
     font-size: 20px;
     margin-top: 20px;
     color: rgb(94, 74, 74);
