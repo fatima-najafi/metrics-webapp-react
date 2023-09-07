@@ -58,7 +58,7 @@
 ## 🤯 Walk through video <a name="walk-through"></a>
 
 
-- [here](https://www.loom.com/share/b100af4d621e4a4190db3d32c3ff2026?sid=ebc6c048-9562-4cac-8009-41b658f56cd4)
+- [here](https://www.loom.com/share/03d5c7e71a604a17be31b44890439338?sid=3299bd83-b4a9-41c4-be73-917804948ea7)
  <!-- LIVE DEMO -->
  ## 🚀 Live Demo <a name="live-demo"></a>
 
