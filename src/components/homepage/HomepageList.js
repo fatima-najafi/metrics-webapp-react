@@ -51,6 +51,7 @@ const HomepageList = () => {
       <div className="container">
         {filteredCompanies.map((company) => (
           <div
+            className="style"
             key={uuidv4()}
             onClick={() => navigate(`/details/${company.symbol}`)}
             aria-hidden="true"
