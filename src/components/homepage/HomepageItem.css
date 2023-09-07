@@ -1,11 +1,9 @@
 .item {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
   height: 100px;
   width: 200px;
-
+   gap: 30px;
   text-align: center;
   padding-left: 20px;
 }
@@ -19,7 +17,6 @@
   font-weight: bold;
  font-family: 'Gill Sans', sans-serif;
   font-size: 15px;
-  margin-top: 10px;
   color: #000000b5;
 }
 
