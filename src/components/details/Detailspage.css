@@ -46,6 +46,7 @@ p {
 
 tr {
   height: 35px;
+  background: #80808091;
 }
 
 tr:nth-child(even) {
