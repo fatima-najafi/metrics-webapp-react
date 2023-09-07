@@ -16,15 +16,22 @@ const Detailspage = () => {
   return (
     <div className="parent" data-testid="detailspage">
       <div className="items">
-        <img className="image" src={companyDetails.image} alt="company" />
-        <p>
-          (
-          {companyDetails.symbol}
-          )
-        </p>
-        <h1>{companyDetails.companyName}</h1>
+        <div
+          className="fix-image"
+          style={{ display: 'flex', flexDirection: 'row', gap: '30px' }}
+        >
+          <img className="image" src={companyDetails.image} alt="company" />
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p>
+              (
+              {companyDetails.symbol}
+              )
+            </p>
+            <h1>{companyDetails.companyName}</h1>
+          </div>
+        </div>
         <table className="table">
-          <tbody>
+          <tbody className="content">
             <tr>
               <th scope="col">CEO</th>
               <td>{companyDetails.ceo}</td>
