@@ -1,28 +1,38 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { render, fireEvent } from '@testing-library/react';
+import { MemoryRouter, useNavigate } from 'react-router-dom';
 import Navbar from '../navbar/Navbar';
 
-describe('Navbar', () => {
-  test('renders the navbar component', () => {
-    render(
-      <BrowserRouter>
+jest.mock('react-router-dom', () => ({
+  ...jest.requireActual('react-router-dom'),
+  useNavigate: jest.fn(),
+}));
+
+describe('NavBar', () => {
+  test('navigates to the root path when the back button is clicked', () => {
+    const mockNavigate = jest.fn();
+    useNavigate.mockReturnValue(mockNavigate);
+
+    const { getByAltText } = render(
+      <MemoryRouter>
         <Navbar />
-      </BrowserRouter>,
+      </MemoryRouter>,
     );
-    expect(screen.getByText('Companies List')).toBeInTheDocument();
-    expect(screen.getByAltText('back')).toBeInTheDocument();
-    expect(screen.getByAltText('mic')).toBeInTheDocument();
-    expect(screen.getByAltText('setting')).toBeInTheDocument();
+
+    const backButton = getByAltText('back');
+    fireEvent.click(backButton);
+
+    expect(mockNavigate).toHaveBeenCalledWith('/');
   });
 
-  test('matches snapshot', () => {
-    const { container } = render(
-      <BrowserRouter>
+  test('renders the Navbar component', () => {
+    const { getByTestId } = render(
+      <MemoryRouter>
         <Navbar />
-      </BrowserRouter>,
+      </MemoryRouter>,
     );
-    expect(container).toMatchSnapshot();
+
+    const navbar = getByTestId('navbar');
+    expect(navbar).toBeTruthy();
   });
 });
