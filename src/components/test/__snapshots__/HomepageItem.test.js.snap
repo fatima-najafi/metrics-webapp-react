@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomepageItem renders correctly with the given title 1`] = `
+<div
+  class="container"
+  data-testid="homepageitem"
+>
+  <div
+    class="item"
+  >
+    <img
+      alt="company"
+      class="icon"
+      src="images (1).jpg"
+    />
+    <h1
+      class="title"
+    >
+      Example Title
+    </h1>
+  </div>
+</div>
+`;

@@ -1,0 +1,51 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 168px;
+  gap: 30px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+  margin-top: 6px;
+  margin-left: 8px;
+}
+
+.title {
+  font-weight: bold;
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 15px;
+  color: #000000b5;
+}
+
+/* for desctop version */
+@media only screen and (min-width: 768px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    margin: 20px 10px;
+    text-align: center;
+  }
+
+  .icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(94, 74, 74);
+  }
+}

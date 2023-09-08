@@ -10,10 +10,11 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[bookstore\] ](#-bookstore-)
+- [📖 \[metrics-webapp-react\] ](#-metrics-webapp-react)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [🤯 Walk through video ](#-walk-through-video-)
     - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites ](#prerequisites-)
@@ -29,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Book Store Project] <a name="about-project"></a>
+# 📖 [metrics-webapp-react] <a name="about-project"></a>
 
-**Book Store Project** is an application that allows users to add and delete books .
+**metrics-webapp-react** 🏢 A Company application 🌍 that provides information about the company of any city in the world 🌎. Built with React ⚛️ and Redux 🔄.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,12 +52,17 @@
 ### Key Features <a name="key-features"></a>
 
 - **Created with react**
-- **Add and delete new book**
+- **Fetch Data from API**
+<!-- WALKTHROUGH -->
 
-- - <!-- LIVE DEMO -->
-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🤯 Walk through video <a name="walk-through"></a>
 
-  - [Live Demo Link]Comming soon
+
+- [here](https://www.loom.com/share/189bdf857aac4d61ae14ff406743bf4b?sid=d9541873-ba3c-47a8-b5ec-17f9141bf991)
+ <!-- LIVE DEMO -->
+ ## 🚀 Live Demo <a name="live-demo"></a>
+
+   [Live Demo Link](https://metrics-webapp-react.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,9 +86,9 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  mkdir bookstore
-  cd bookstore
-  git clone https://github.com/fatima-najafi/Bookstore.git
+  mkdir metrics-webapp-react
+  cd metrics-webapp-react
+  git clone https://github.com/fatima-najafi/metrics-webapp-react.git
 ```
 
 ### Install <a name="install">
@@ -110,9 +116,9 @@ npm start
 
 👤 **Fatima Najafi**
 
-- GitHub: [@fatima-najafi](https://github.com/fatima-najafi/math-magicians)
+- GitHub: [@fatima-najafi](https://github.com/fatima-najafi)
 - Twitter: [@fatima-najafi](https://twitter.com/FatimaNajafi6)
-- LinkedIn: [@fatima-najafi](https://www.linkedin.com/in/fatima-najafi-75424a23a/)
+- LinkedIn: [@fatima-najafi](https://www.linkedin.com/in/fatima-najafi/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,7 +127,7 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Expand the bookstore functionality**
+- [ ] **Expand the metrics-webapp-react functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +153,7 @@ If you like this project please show us support by givintg it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thanks Microverse for this learning opportunity.
+I would like to thanks Microverse for this learning opportunity. and I would like to extend my thanks to Nelson Sakwa for the inspiring design. You can find the original design by Nelson Sakwa [here](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
